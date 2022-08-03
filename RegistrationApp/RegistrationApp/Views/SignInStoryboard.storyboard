@@ -22,6 +22,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Create new account">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="8KO-Ml-VsO" kind="show" id="BOW-80-25e"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="xJm-2e-Kru">
                                 <rect key="frame" x="45" y="262.5" width="324" height="265"/>
@@ -114,6 +117,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eju-4c-uIj" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="460.86956521739131" y="85.714285714285708"/>
+        </scene>
+        <!--SignUpStoryboard-->
+        <scene sceneID="bkK-P7-csz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUpStoryboard" id="8KO-Ml-VsO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ldn-c4-yCf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AoI-gf-01Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1128" y="-14"/>
         </scene>
         <!--Main-->
         <scene sceneID="PwY-fl-kgt">
